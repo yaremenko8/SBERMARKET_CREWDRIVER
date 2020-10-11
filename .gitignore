@@ -1,0 +1,13 @@
+__pycache__/
+data/
+cache/
+venv/
+.idea/
+
+#files
+*.zip
+*.xlsx
+*.csv
+*.parquet
+*.ipynb
+
