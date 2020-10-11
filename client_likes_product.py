@@ -54,7 +54,7 @@ def peculiar_interval(item, threshold=3, tolerance=0.8):
 def is_item_consumable(item, price_threshold=1000):
   return get_price(item) < price_threshold
 
-def client_likes_item(client, item, threshold=3): 
+def client_likes_product(client, item, threshold=3): 
   if is_item_consumable(item):
     if num_purchases(client, item) <= threshold:
       return 0.0
